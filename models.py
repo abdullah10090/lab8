@@ -21,3 +21,6 @@ class User(db.Model, UserMixin):
 
     def __repr__(self):
         return f"<User {self.username}>"
+
+    def print3():
+        print("HEllo world")
