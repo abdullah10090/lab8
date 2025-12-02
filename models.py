@@ -21,6 +21,11 @@ class User(db.Model, UserMixin):
 
     def __repr__(self):
         return f"<User {self.username}>"
+<<<<<<< HEAD
     
     def print4():
+=======
+
+    def print3():
+>>>>>>> f701dbc63cc16f62aca48ccb16b849e0c2e042d6
         print("HEllo world")
